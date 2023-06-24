@@ -7,18 +7,18 @@
     </head>
     <body>
         <h1>Register of Students</h1>
-        <form action="processStudent.php" method="post">
+        <form action="../controller/processStudent.php">
             <!-- ----------------------------------- -->
             <label for="name">Name:</label>
-            <input type="text" id="name"          required> <br/><br/>
+            <input type="text" class="name"          id="name"          required> <br/><br/>
             <!-- ----------------------------------- -->
             <label for="registration">Registration:</label>
-            <input type="text" id="registration"  required> <br/><br/>
+            <input type="text" class="registration"  id="registration"  required> <br/><br/>
             <!-- ----------------------------------- -->
             <label for="date_of_birth">Date of Birth:</label>
-            <input type="text" id="date_of_birth" required> <br/><br/>
+            <input type="text" class="date_of_birth" id="date_of_birth" required> <br/><br/>
             <!-- ----------------------------------- -->
-            <input type="submit" value="Register!">
+            <input type="submit" id="submit" value="Register!">
             <!-- ----------------------------------- -->
         </form>
     </body>
