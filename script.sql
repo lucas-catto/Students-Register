@@ -7,13 +7,14 @@ CREATE TABLE Students(
     NameStudent    VARCHAR(50) NOT NULL,
     Registration   VARCHAR(20) NOT NULL,
     DateOfBirth    VARCHAR(10) NOT NULL,
-    MomentRegister VARCHAR(30) NOT NULL
+    MomentRegister VARCHAR(19) NOT NULL
 );
 
 CREATE TABLE Teachers(
-	Id          INT AUTO_INCREMENT PRIMARY KEY,
-    NameTeacher VARCHAR(50) NOT NULL,
-    Email       VARCHAR(50) NOT NULL
+	Id             INT AUTO_INCREMENT PRIMARY KEY,
+    NameTeacher    VARCHAR(50) NOT NULL,
+    Email          VARCHAR(50) NOT NULL,
+    MomentRegister VARCHAR(19) NOT NULL
 );
 
 CREATE TABLE Classes(

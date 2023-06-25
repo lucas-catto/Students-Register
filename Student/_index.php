@@ -12,6 +12,6 @@
         $sql = $pdo->prepare("INSERT INTO `Students` VALUES (null,?,?,?,?)");
         $sql->execute(array($name, $registration, $dateOfBirth, $momentRegister));
         
-        echo "Student ".$name." was registered!";
+        echo "Student $name was registered!";
     }
 ?>
