@@ -18,10 +18,11 @@ CREATE TABLE Teachers(
 );
 
 CREATE TABLE Classes(
-	Id          INT AUTO_INCREMENT PRIMARY KEY,
-    NameClass   VARCHAR(50) NOT NULL,
-    Period      VARCHAR(10) NOT NULL,
-    Teacher_Id  INT         NOT NULL,
+	Id             INT AUTO_INCREMENT PRIMARY KEY,
+    NameClass      VARCHAR(50) NOT NULL,
+    Period         VARCHAR(35) NOT NULL,
+    Teacher_Id     INT         NOT NULL,
+    MomentRegister VARCHAR(19) NOT NULL,
     FOREIGN KEY (Teacher_Id) REFERENCES Teachers(Id)
 );
 
@@ -45,4 +46,6 @@ CREATE TABLE Notes_Absences(
 );
 
 SELECT * FROM Students;
+SELECT * FROM Teachers;
+SELECT * FROM Classes;
 
