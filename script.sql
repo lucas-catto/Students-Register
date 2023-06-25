@@ -3,10 +3,11 @@ CREATE DATABASE IF NOT EXISTS School;
 USE School;
 
 CREATE TABLE Students(
-	Id           INT AUTO_INCREMENT PRIMARY KEY,
-    NameStudent  VARCHAR(50) NOT NULL,
-    Registration VARCHAR(20) NOT NULL,
-    DateOfBirth  DATE        NOT NULL
+	Id             INT AUTO_INCREMENT PRIMARY KEY,
+    NameStudent    VARCHAR(50) NOT NULL,
+    Registration   VARCHAR(20) NOT NULL,
+    DateOfBirth    VARCHAR(10) NOT NULL,
+    MomentRegister VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE Teachers(
@@ -41,4 +42,6 @@ CREATE TABLE Notes_Absences(
     PRIMARY KEY (Register_Student_Id, Register_Class_Id),
     FOREIGN KEY (Register_Student_Id, Register_Class_Id) REFERENCES Registers(StudentId, ClassId)
 );
+
+SELECT * FROM Students;
 
