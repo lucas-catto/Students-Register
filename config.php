@@ -1,5 +1,5 @@
 
-<style>html{background-color:gray;}</style>
+<style>html.pre{background-color:gray;}</style>
 
 <html>
     <pre>
