@@ -1,4 +1,6 @@
-
+<?php
+            require_once "../config.php";
+        ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,9 +11,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        
         <div class="container">
             <?php
-                require_once "../config.php";
+                
 
                 $sql = $pdo->prepare("SELECT * FROM `Students`");
                 $sql->execute();

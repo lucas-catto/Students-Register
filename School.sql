@@ -51,7 +51,7 @@ SELECT * FROM Classes;
 
 INSERT INTO `Students` VALUES
 (null, "Lucas Oliveira",      "000001",  "10/05/2000",  "2016-08-14 09:26:01"),
-(null, "Enzo Costa",          "000002",  "02/18/1997",  "2021-03-29 10:15:22"),
+(null, "Enzo Costa Silva",          "000002",  "02/18/1997",  "2021-03-29 10:15:22"),
 (null, "Mariana Silva",       "000003",  "07/21/1998",  "2019-11-02 11:45:10"),
 (null, "Lara Rodrigues",      "000004",  "09/30/1992",  "2018-05-19 12:30:05"),
 (null, "Pedro Fernandes",     "000005",  "03/14/1996",  "2022-02-06 14:20:33"),
@@ -59,7 +59,7 @@ INSERT INTO `Students` VALUES
 (null, "Arthur Souza",        "000007",  "12/19/2001",  "2023-01-27 16:45:18"),
 (null, "Sophia Almeida",      "000008",  "06/11/1994",  "2015-07-02 17:10:55"),
 (null, "Davi Pereira",        "000009",  "11/02/1990",  "2020-10-18 18:40:29"),
-(null, "Luiza Lima",          "000010",  "04/25/1999",  "2017-12-07 19:25:15"),
+(null, "Luiza Lima de Souza",          "000010",  "04/25/1999",  "2017-12-07 19:25:15"),
 (null, "Rafaela Castro",      "000011",  "08/29/2002",  "2022-08-01 20:15:07"),
 (null, "Hugo Costa",          "000012",  "03/05/1993",  "2016-06-10 21:10:32"),
 (null, "Samuel Santos",       "000013",  "12/08/1991",  "2019-09-23 22:40:50"),
@@ -90,7 +90,7 @@ SELECT * FROM Students;
 
 INSERT INTO `Teachers` VALUES
 (null, "Márcio Moraes",     "marcio@email.com",        "2018-09-01 14:20:33"),
-(null, "Ana Silva",         "ana@email.com",           "2018-10-05 09:10:22"),
+(null, "Ana Silva Moura",         "ana@email.com",           "2018-10-05 09:10:22"),
 (null, "Pedro Santos",      "pedro@email.com",         "2018-11-08 16:45:18"),
 (null, "Carolina Oliveira", "carolina@email.com",      "2018-12-12 12:30:01"),
 (null, "Gustavo Ferreira",  "gustavo@email.com",       "2019-01-15 08:55:47"),
