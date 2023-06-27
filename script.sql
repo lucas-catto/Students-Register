@@ -87,3 +87,43 @@ INSERT INTO `Students` VALUES
 (null, "Clara Fernandes",     "000035",  "03/01/1996",  "2022-02-06 14:20:33");
 
 SELECT * FROM Students;
+
+INSERT INTO `Teachers` VALUES
+(null, "Márcio Moraes",     "marcio@email.com",        "2018-09-01 14:20:33"),
+(null, "Ana Silva",         "ana@email.com",           "2018-10-05 09:10:22"),
+(null, "Pedro Santos",      "pedro@email.com",         "2018-11-08 16:45:18"),
+(null, "Carolina Oliveira", "carolina@email.com",      "2018-12-12 12:30:01"),
+(null, "Gustavo Ferreira",  "gustavo@email.com",       "2019-01-15 08:55:47"),
+(null, "Mariana Souza",     "mariana@email.com",       "2019-02-18 17:25:52"),
+(null, "Rafael Costa",      "rafael@email.com",        "2019-03-23 10:40:36"),
+(null, "Camila Pereira",    "camila@email.com",        "2019-04-26 14:15:59"),
+(null, "Lucas Silva",       "lucas@email.com",         "2019-05-30 11:50:43"),
+(null, "Isabela Santos",    "isabela@email.com",       "2019-06-04 09:35:12"),
+(null, "Bruno Oliveira",    "bruno@email.com",         "2019-07-07 18:20:25"),
+(null, "Júlia Ferreira",    "julia@email.com",         "2019-08-10 13:05:37"),
+(null, "André Costa",       "andre@email.com",         "2019-09-13 15:45:59"),
+(null, "Laura Pereira",     "laura@email.com",         "2019-10-16 11:30:21"),
+(null, "Pedro Santos",      "pedro.santos@email.com",  "2019-11-19 09:15:42"),
+(null, "Sofia Oliveira",    "sofia@email.com",         "2019-12-22 16:40:53"),
+(null, "Gustavo Silva",     "gustavo.silva@email.com", "2020-01-25 13:25:17"),
+(null, "Luiza Costa",       "luiza@email.com",         "2020-02-28 10:10:30"),
+(null, "Matheus Pereira",   "matheus@email.com",       "2020-04-02 18:35:44"),
+(null, "Gabriela Santos",   "gabriela@email.com",      "2020-05-06 12:20:59"),
+(null, "Arthur Oliveira",   "arthur@email.com",        "2020-06-09 15:55:12"),
+(null, "Manuela Ferreira",  "manuela@email.com",       "2020-07-13 11:40:26"),
+(null, "Enzo Costa",        "enzo@email.com",          "2020-08-16 14:25:39"),
+(null, "Antonella Pereira", "antonella@email.com",     "2020-09-19 09:10:51"),
+(null, "Davi Silva",        "davi.silva@email.com",    "2020-10-22 17:35:03"),
+(null, "Gustavo Silva Pereira", "gustavo@email.com",   "2023-06-27 18:30:45");
+
+SELECT * FROM Teachers;
+
+INSERT INTO `Classes` VALUES
+(null, "1º Ano",  "07:10 - 14:50", 1, "2023-06-27 09:45:12"),
+(null, "2º Ano",  "07:10 - 14:50", 1, "2023-06-27 09:45:12"),
+(null, "3º Ano",  "07:10 - 14:50", 1, "2023-06-27 09:45:12"),
+(null, "1º Mtec", "07:10 - 14:50", 1, "2023-06-27 09:45:12"),
+(null, "2º Mtec", "07:10 - 14:50", 1, "2023-06-27 09:45:12"),
+(null, "3º Mtec", "07:10 - 14:50", 1, "2023-06-27 09:45:12");
+
+SELECT * FROM Classes;
