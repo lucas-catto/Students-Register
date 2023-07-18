@@ -1,2 +1,2 @@
 # Students-Register
-I found this project in my school server, so I decided to do.
+I found this project in my school server, so I decided to improve.
